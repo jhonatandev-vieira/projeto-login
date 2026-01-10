@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: #333;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.logo {
+    display: block;
+    margin: 0 auto 10px;
+    width: 120px;
+    height: auto;
+    filter: drop-shadow(0 0 0 #717171) saturate(1000%);
+}
+
+.header h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.login-container {
+    background-color: white;
+    padding: 20px; /* reduzido para deixar mais compacto */
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 250px; /* antes era 300px */
+}
+
+.input-group {
+    margin-bottom: 15px; /* antes era 20px */
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+input {
+    width: 100%;
+    padding: 8px; /* antes era 10px */
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.login-button {
+    background-color: #0066cc;
+    color: white;
+    border: none;
+    padding: 10px; /* antes era 12px */
+    width: 100%;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px; /* antes era 16px */
+    margin-top: 10px;
+}
+
+.login-button:hover {
+    background-color: #0055aa;
+}
+
+.datetime {
+    font-size: 12px;
+    text-align: center;
+    margin-top: 25px; /* um pouco menos de espaço */
+    color: #666;
+}
+
+.footer {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 30px; /* reduzido */
+    text-align: center;
+}
